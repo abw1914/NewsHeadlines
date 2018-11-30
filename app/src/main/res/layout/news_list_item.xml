@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/news_list_view"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="12dp"
+    android:orientation="vertical"
+    android:background="@color/listViewBackground">
+
+
+    <TextView
+        android:id="@+id/article_title"
+        android:text="News Title"
+        android:textSize="14dp"
+        android:layout_marginTop="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/titleColor"/>
+
+    <TextView
+        android:id="@+id/article_author"
+        android:textSize="12dp"
+        android:layout_marginTop="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Article Author"
+        android:textColor="@color/authorColor"/>
+
+    <TextView
+        android:id="@+id/article_date"
+        android:textSize="10dp"
+        android:layout_marginTop="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Article Date"
+        android:textColor="@color/authorColor"/>
+
+    <TextView
+        android:id="@+id/no_internet"
+        android:textColor="@color/colorAccent"
+        android:textSize="8sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/no_internet"/>
+
+</LinearLayout>
